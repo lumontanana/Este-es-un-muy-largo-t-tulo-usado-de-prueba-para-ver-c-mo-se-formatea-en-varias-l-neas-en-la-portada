@@ -1,0 +1,127 @@
+% !TeX root = ejemplo-memoria.tex
+\documentclass[twoside,spanish,a4paper,12pt]{tfg}
+
+% Editar la titulación
+\titulacion{Grado en Ingeniería \\ Informática}
+
+% Editar el título
+\title{Trabajos con Interfaz Cerebro-Computador}
+
+% Si es una alumna se debe usar
+% \authorlabel{Autora}
+\authorlabel{Autora}
+% Editar el nombre
+\author{Lucía Montañana Fuentes}
+
+
+% Si hay varios tutores:
+% \tutorlabel{Tutores}
+% \tutor{Nombre del tutor 1 \\[2mm] Nombre del turor2}
+% Si el tutor es masculino:
+% \tutorlabel{Tutor}
+\tutorlabel{Tutor}
+% Editar
+\tutor{Jose Vicente Riera López}
+
+% Editar: Poner mes y año de la convocatoria de lectura del TFM
+\convocatoria{Julio 2025}
+
+\begin{document}
+
+% NO QUITAR ESTOS ELEMENTOS
+\portada
+\cleardoublepage
+\contraportada
+\cleardoublepage
+\declaracion
+\cleardoublepage
+
+
+% Editar: Resumen en Español (obligatorio)
+\begin{resumen}
+  A día de hoy el campo de la interacción con objetos a través de impulsos cerebrales esta en la alza, este trabajo se centra en analizar el estado actual y las aplicaciones de esta plataforma de hardware abierto en neurociencia, biomedicina e interfaces cerebro-computadora. El hardware de OpenBCI destaca por su accesibilidad y versatilidad, siendo una alternativa open source frente a soluciones comerciales en la adquisición y análisis de señales biomédicas como EEG, EMG y ECG. Actualmente, estas tecnologías están en constante expansión, facilitando investigaciones sobre control por pensamiento, rehabilitación cognitiva y análisis emocional. En esta tesis tenemos un hardware no invasivo para poder investigar las posibles utilidades. En concreto vamos a usar el casco con la placa Cyton complementandola con la placa Daisy para registrar ondas EEG.
+\end{resumen}
+\cleardoublepage
+
+% Editar: Resumen en Inglés
+\begin{abstract}
+  This is the abstract of the TFM. It must be short and cover the main aspects of the TFM.
+\end{abstract}
+\cleardoublepage
+
+\cleardoublepage
+
+
+% Editar: Agradecimientos (opcional)
+\begin{agradecimientos}
+  En primer lugar a mis padres por aguantar los años de carrera que me queria matar y dejarlo constantemente.
+
+  En segundo lugar a mis amigos que he hecho durante esta puta tortura, sin vosotros no podría haber superado este infierno de carrera, me habéis enseñado a trabajar en equipo siempre, a colaborar y a salir siempre de los peores agujeros. 
+
+  En tercer lugar los amigos de fuera de esta cueva parasitaria, por estar siempre ahí, por haber entrado conmigo y haber salido conmigo también, sois la familia que elegí y estoy tan agradecida de haberos elegido. 
+\end{agradecimientos}
+\cleardoublepage
+
+\tableofcontents
+
+\pagestyle{tfg}
+\justify
+
+% Las figuras se buscan en el directorio figs
+
+% Cada capítulo está en su propio fichero tex. Ver el directorio tex.
+
+% La bibliografía está dentro del directorio bib
+\chapter{Introducción}
+\input{tex/introduccion.tex}
+Las tecnologías OpenBCI son una herramienta fundamental de la investigación de neurocientífica pioneros por 
+democratizar el acceso a interfaces cerebro-computadora y aplicaciones biomédicas. 
+OpenBCI es una plataforma de hardware y software abierto que permite la adquisición y análisis de señales bioeléctricas 
+como EEG EMG ECG y EOG fundamentales para aplicaciones en neurociencia control por movimientos imaginarios aplicados principalmente en rehabilitación. 
+En este trabajo vamos a centrarnos en los impulsos generados por los movimientos imaginarios, los cuales los registramos 
+por electrodos que están conectados a las placas Cyton Ganglion y Daisy con alta precisión. 
+Se monitoriza en tiempo real las señales bioeléctricas con gran precisión y se analizan a primera vista con la GUI que ofrece OpenBCI, 
+más tarde para procesamiento avanzado se utiliza BrainFlow y OpenVibe.
+Entre los desafíos y limitaciones se encuentran la calidad de las señales EEG que presentan niveles altos de ruido y sensibilidad a artefactos 
+externos la complejidad en el procesamiento y clasificación de datos que requieren algoritmos avanzados y el rendimiento en velocidad y precisión que aún no iguala a sistemas invasivos.
+
+
+
+\chapter{Estado del arte}
+\input{tex/estado_arte.tex}
+
+\chapter{Requisitos, especificaciones, coste, riesgos, viabilidad}
+\input{tex/requisitos.tex}
+
+\chapter{Análisis}
+\input{tex/analisis.tex}
+
+\chapter{Diseño}
+\input{tex/diseno.tex}
+
+\chapter{Implementación y pruebas}
+\input{tex/implementacion_pruebas.tex}
+\chapter{Conclusiones}
+\input{tex/conclusiones.tex}
+
+
+
+\pagestyle{appendix}
+
+\appendix
+\chapter{Apéndice}
+\input{tex/apendice.tex}
+
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliographystyle{unsrt}
+\bibliography{bib/bibliografia}
+
+
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
