@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ejemplo-memoria"] 1737058854.67921 "ejemplo-memoria.aux" "ejemplo-memoria.bbl" "ejemplo-memoria" 1737058856.83265 0
+["bibtex ejemplo-memoria"] 1737635182.87611 "ejemplo-memoria.aux" "ejemplo-memoria.bbl" "ejemplo-memoria" 1737635184.93503 0
   "./bib/bibliografia.bib" 1737052582 823 bc4c38fc2202cfe5cbbe255e6bdd6083 ""
   "C:/Program Files/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291864736 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "ejemplo-memoria.aux" 1737058856 5899 265468032ab68401968264bddf86d5c0 "pdflatex"
+  "ejemplo-memoria.aux" 1737635184 6003 02355ccc35af2664384c79dc495b9d55 "pdflatex"
   (generated)
   "ejemplo-memoria.bbl"
   "ejemplo-memoria.blg"
   (rewritten before read)
-["pdflatex"] 1737058854.93423 "c:/Users/lumon/Documents/Este es un muy largo título usado de prueba para ver cómo se formatea en varias líneas en la portada/ejemplo-memoria.tex" "ejemplo-memoria.pdf" "ejemplo-memoria" 1737058856.83308 0
+["pdflatex"] 1737635183.20271 "c:/Users/lumon/Documents/Este es un muy largo título usado de prueba para ver cómo se formatea en varias líneas en la portada/ejemplo-memoria.tex" "ejemplo-memoria.pdf" "ejemplo-memoria" 1737635184.9355 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993061962 3204 d35cb76836b6cb4ed404dd64a550530d ""
@@ -207,12 +207,12 @@
   "C:/Users/lumon/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty" 1665066333 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "C:/Users/lumon/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/lumon/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
-  "c:/Users/lumon/Documents/Este es un muy largo título usado de prueba para ver cómo se formatea en varias líneas en la portada/ejemplo-memoria.tex" 1737056986 4775 f3bc93a87b1d6df4c18b14dbd55864b0 ""
-  "ejemplo-memoria.aux" 1737058856 5899 265468032ab68401968264bddf86d5c0 "pdflatex"
-  "ejemplo-memoria.bbl" 1737058854 536 cc52c366658607af7f09ad81dd923fc3 "bibtex ejemplo-memoria"
-  "ejemplo-memoria.out" 1737058856 5335 d06b6420de35a892f0b7fd2ea69a0dcd "pdflatex"
-  "ejemplo-memoria.tex" 1737056986 4775 f3bc93a87b1d6df4c18b14dbd55864b0 ""
-  "ejemplo-memoria.toc" 1737058856 2785 d9b303c4ad8d5d855e11afc25733b808 "pdflatex"
+  "c:/Users/lumon/Documents/Este es un muy largo título usado de prueba para ver cómo se formatea en varias líneas en la portada/ejemplo-memoria.tex" 1737635177 2962 bf78c2b907d77593a65693f32322acef ""
+  "ejemplo-memoria.aux" 1737635184 6003 02355ccc35af2664384c79dc495b9d55 "pdflatex"
+  "ejemplo-memoria.bbl" 1737635183 536 cc52c366658607af7f09ad81dd923fc3 "bibtex ejemplo-memoria"
+  "ejemplo-memoria.out" 1737635184 5335 d06b6420de35a892f0b7fd2ea69a0dcd "pdflatex"
+  "ejemplo-memoria.tex" 1737635177 2962 bf78c2b907d77593a65693f32322acef ""
+  "ejemplo-memoria.toc" 1737635184 2848 b0fe507ae591467308547058afc544c7 "pdflatex"
   "figs/ETSE.jpg" 1737052582 32127 3757185f7e60cfcfed876d42dbed27c8 ""
   "figs/diagrama.pdf" 1737052582 41642 d9f206003e59025720ac2cfbe685caa5 ""
   "figs/escudo_logo_UV.jpg" 1737052582 310940 255ff6567a10d16f1faf2018ca8ac99a ""
@@ -221,9 +221,9 @@
   "tex/apendice.tex" 1737052582 2156 526e416d6adfcd52fda7716bd145a1be ""
   "tex/conclusiones.tex" 1737052582 236 75fb90dd8eb5d7b00a096af566d7c782 ""
   "tex/diseno.tex" 1737052582 236 77b03f5b0677959d38ce6cbb3292585d ""
-  "tex/estado_arte.tex" 1737058852 8315 301ef7481ab491842959330aa2da2d69 ""
+  "tex/estado_arte.tex" 1737635177 9127 48c788b6c9aeeaeed211e5583d4e902a ""
   "tex/implementacion_pruebas.tex" 1737052582 282 594493fb05e72de12bdcc34f953add13 ""
-  "tex/introduccion.tex" 1737052582 266 98b7b7a710d85656cf54473efcdcf15e ""
+  "tex/introduccion.tex" 1737635177 1506 77babe67044475d6562e9226a9462522 ""
   "tex/requisitos.tex" 1737052582 490 20b8549245b4e90a1d41e507776ca2ae ""
   "tfg.cls" 1737052582 9808 00c0702f2eaaba6671dc2bf547a38c0c ""
   (generated)

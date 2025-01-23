@@ -11,10 +11,11 @@
 \contentsline {subsubsection}{Ondas Beta}{18}{section*.3}%
 \contentsline {subsubsection}{Ondas Alfa}{18}{section*.4}%
 \contentsline {section}{\numberline {2.2}Hardware}{19}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Software}{19}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Registro de Datos}{19}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Clasificación de señales}{19}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Entrenamiento de algoritmos}{19}{subsection.2.3.3}%
+\contentsline {subsubsection}{Placas OpenBCI}{19}{section*.5}%
+\contentsline {section}{\numberline {2.3}Software}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Registro de Datos}{20}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Clasificación de señales}{20}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Entrenamiento de algoritmos}{20}{subsection.2.3.3}%
 \contentsline {chapter}{\numberline {3}Requisitos, especificaciones, coste, riesgos, viabilidad}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Requisitos}{21}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Especificaciones}{21}{section.3.2}%
